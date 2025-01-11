@@ -257,7 +257,7 @@ nav a:hover, nav a.active {
 
     #searchInput {
         font-size: 14px;
-        padding: 8px 30px 8px 8px;
+        padding: 8px 8px 8px 35px;
     }
 
     .item-card {
@@ -268,5 +268,6 @@ nav a:hover, nav a.active {
     .search-icon {
         width: 14px;
         height: 14px;
+        left: 12px;
     }
 }
