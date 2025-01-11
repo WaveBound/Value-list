@@ -1,0 +1,16 @@
+{
+  "updates": [
+    {
+      "date": "2024-01-15",
+      "version": "1.2",
+      "changes": [
+        {
+          "item": "Cool B",
+          "oldValue": 140,
+          "newValue": 160,
+          "type": "value_change"
+        }
+      ]
+    }
+  ]
+}
