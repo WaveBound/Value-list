@@ -60,7 +60,7 @@ nav a:hover, nav a.active {
 }
 
 .items-container {
-    max-width: 1500px;  /* Increased from 1200px */
+    max-width: 1300px;  /* Increased from 1200px */
     width: 80%;         /* Added to use more screen width */
     margin: 0 auto;
     display: grid;
