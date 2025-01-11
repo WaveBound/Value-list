@@ -54,24 +54,24 @@ nav a:hover, nav a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #1a1a2e;
     width: 100%;
 }
 
 .items-container {
-    width: 95%;
+    width: fit-content;
     margin: 0 auto;
     display: grid;
     gap: 2rem;
     padding: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 320px));
+    grid-template-columns: repeat(auto-fit, 225px);
     justify-content: center;
 }
 
 .item-card {
     width: 100%;
-    max-width: 320px;
+    max-width: 225px;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
