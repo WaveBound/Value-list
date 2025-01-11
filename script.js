@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 data.updates.forEach(update => {
                     updateHTML += `
                         <div class="update-card">
-                            <h2>Update ${update.version}</h2>
+                            <h2>${update.version}</h2>
                             <p class="update-date">${update.date}</p>
                             <ul class="update-list">
                                 ${update.changes.map(change => 
