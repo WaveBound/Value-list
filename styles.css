@@ -166,6 +166,50 @@ nav a:hover, nav a.active {
     margin: 0.5rem 0;
 }
 
+.updates-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.update-card {
+    background-color: #16213e;
+    border: 1px solid #0f3460;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(74, 144, 226, 0.3);
+}
+
+.update-card h2 {
+    color: #4a90e2;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.update-date {
+    color: #888;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.update-list {
+    list-style-position: inside;
+    color: white;
+}
+
+.update-list li {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+
 @media (max-width: 768px) {
     .item-card img {
         width: 120px;
