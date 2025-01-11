@@ -59,7 +59,7 @@ nav a:hover, nav a.active {
 }
 
 .items-container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
