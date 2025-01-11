@@ -56,7 +56,7 @@ nav a:hover, nav a.active {
 }
 
 #searchInput {
-    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    padding: 0.8rem 2.5rem 0.8rem 1rem;
     width: 250px;
     border-radius: 20px;
     border: 2px solid #0f3460;
@@ -209,7 +209,6 @@ nav a:hover, nav a.active {
     line-height: 1.5;
 }
 
-
 @media (max-width: 768px) {
     .item-card img {
         width: 120px;
@@ -224,8 +223,47 @@ nav a:hover, nav a.active {
         font-size: 2rem;
     }
     
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     nav a {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 0.4rem 0.8rem;
+    }
+
+    .search-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 250px;
+        margin-left: 0;
+    }
+
+    #searchInput {
+        width: 100%;
+        padding: 0.6rem 2rem 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .search-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container {
+        max-width: 200px;
+    }
+
+    #searchInput {
+        padding: 0.5rem 1.8rem 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .search-icon {
+        width: 14px;
+        height: 14px;
     }
 }
