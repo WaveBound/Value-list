@@ -33,30 +33,4 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-
-    // Initialize updates page if we're on it
-    if (window.location.pathname.includes('updates.html')) {
-        fetch('changes.json')
-            .then(response => response.json())
-            .then(data => {
-                const updatesContainer = document.querySelector('.updates-container');
-                let updateHTML = '';
-
-                data.updates.forEach(update => {
-                    updateHTML += `
-                        <div class="update-card">
-                            <h2>${update.version}</h2>
-                            <p class="update-date">${update.date}</p>
-                            <ul class="update-list">
-                                ${update.changes.map(change => 
-                                    `<li>${change.item} value changed from ${change.oldValue} to ${change.newValue}</li>`
-                                ).join('')}
-                            </ul>
-                        </div>
-                    `;
-                });
-
-                updatesContainer.innerHTML = updateHTML;
-            });
-    }
 });
