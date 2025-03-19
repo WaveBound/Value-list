@@ -236,26 +236,17 @@ nav a:hover, nav a.active {
     }
 
     .item-card {
-        width: 170px;
-        flex: 0 0 170px;
+        width: 180px;
+        flex: 0 0 180px;
     }
 
     .item-card img {
-        width: 110px;
-        height: 110px;
+        width: 120px;
+        height: 120px;
     }
 
     .item-info h3 {
         font-size: 1rem;
-    }
-    
-    .items-container {
-        gap: 0.3rem;  /* Reduced gap between cards */
-        padding: 0.1rem;  /* Reduced padding around container */
-    }
-    
-    .content-wrapper {
-        padding: 0.2rem;  /* Reduced wrapper padding */
     }
 
     .top-header h1 {
