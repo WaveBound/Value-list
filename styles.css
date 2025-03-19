@@ -251,7 +251,7 @@ nav a:hover, nav a.active {
     
     .items-container {
         gap: 1rem;  /* Reduced gap between cards */
-        padding: 0.5rem;  /* Reduced padding around container */
+        padding: 0.3rem;  /* Reduced padding around container */
     }
     
     .content-wrapper {
