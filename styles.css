@@ -171,14 +171,15 @@ nav a:hover, nav a.active {
     }
 
     .item-card {
-        height: 250px;
+        height: 275px;
         width: 200px;
         max-width: 200px;
+        max-height: 275px;
     }
 
     .item-card img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         margin: 0 auto;
     }
 
