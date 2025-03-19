@@ -248,6 +248,15 @@ nav a:hover, nav a.active {
     .item-info h3 {
         font-size: 1rem;
     }
+    
+    .items-container {
+        gap: 1rem;  /* Reduced gap between cards */
+        padding: 0.5rem;  /* Reduced padding around container */
+    }
+    
+    .content-wrapper {
+        padding: 1rem;  /* Reduced wrapper padding */
+    }
 
     .top-header h1 {
         font-size: 2rem;
