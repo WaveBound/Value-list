@@ -222,8 +222,8 @@ nav a:hover, nav a.active {
     }
 
     nav a {
-        font-size: 1.2rem;  /* Increased font size */
-        padding: 0.8rem 2rem;  /* Increased padding */
+        font-size: 1.5rem;  /* Increased font size */
+        padding: 0.6rem 1.5rem;  /* Increased padding */
         width: 500px;  /* Fixed width for buttons */
         text-align: center;
         margin: 0.2rem 0;  /* Small vertical spacing between buttons */
