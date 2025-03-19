@@ -172,10 +172,14 @@ nav a:hover, nav a.active {
 
     .item-card {
         height: 250px;
+        width: 150px;
+        max-width: 150px;
     }
 
     .item-card img {
+        width: 100px;
         height: 100px;
+        margin: 0 auto;
     }
 
     .item-info h3 {
