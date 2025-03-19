@@ -250,12 +250,12 @@ nav a:hover, nav a.active {
     }
     
     .items-container {
-        gap: 0.5rem;  /* Reduced gap between cards */
-        padding: 0.1rem;  /* Reduced padding around container */
+        gap: 0.75rem;  /* Reduced gap between cards */
+        padding: 0.3rem;  /* Reduced padding around container */
     }
     
     .content-wrapper {
-        padding: 1rem;  /* Reduced wrapper padding */
+        padding: 0.5rem;  /* Reduced wrapper padding */
     }
 
     .top-header h1 {
