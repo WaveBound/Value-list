@@ -69,7 +69,7 @@ nav a:hover, nav a.active {
 
 .items-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
     width: 100%;
     max-width: 1600px;
@@ -85,10 +85,11 @@ nav a:hover, nav a.active {
     border: 1px solid #0f3460;
     display: flex;
     flex-direction: column;
-    min-width: 220px;
+    min-width: 280px;
     min-height: 320px;
-    width: 100%;
     max-width: 280px;
+    max-height: 320px;
+    width: 100%;
     transition: all 0.3s ease;
 }
 
@@ -137,14 +138,15 @@ nav a:hover, nav a.active {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .items-container {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 1.5rem;
     }
 
     .item-card {
-        min-width: 200px;
-        min-height: 300px;
-        max-width: 240px;
+        min-width: 280px;
+        min-height: 320px;
+        max-width: 280px;
+        max-height: 320px;
     }
 }
 
@@ -161,14 +163,15 @@ nav a:hover, nav a.active {
     }
 
     .items-container {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 1rem;
     }
 
     .item-card {
-        min-width: 180px;
-        min-height: 280px;
-        max-width: 200px;
+        min-width: 260px;
+        min-height: 320px;
+        max-width: 260px;
+        max-height: 320px;
     }
 }
 
@@ -178,13 +181,14 @@ nav a:hover, nav a.active {
     }
 
     .items-container {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
         gap: 0.8rem;
     }
 
     .item-card {
-        min-width: 160px;
-        min-height: 260px;
-        max-width: 180px;
+        min-width: 240px;
+        min-height: 320px;
+        max-width: 240px;
+        max-height: 320px;
     }
 }
