@@ -141,6 +141,7 @@ nav a:hover, nav a.active {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     margin-top: auto;
 }
 
@@ -153,17 +154,20 @@ nav a:hover, nav a.active {
     color: #4a90e2;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
+    flex-shrink: 0;
 }
 
 .value {
     color: #00ff00;
     font-weight: bold;
     margin: 0.3rem 0;
+    flex-shrink: 0;
 }
 
 .demand {
     color: #4a90e2;
     font-style: italic;
+    flex-shrink: 0;
 }
 
 .bottom-header {
@@ -261,6 +265,7 @@ nav a:hover, nav a.active {
         flex: 1;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         padding: 1rem;
         background-color: #0f3460;
         margin-top: auto;
@@ -268,6 +273,7 @@ nav a:hover, nav a.active {
 
     .item-info h3 {
         font-size: 1rem;
+        flex-shrink: 0;
     }
 
     .top-header h1 {
@@ -295,6 +301,7 @@ nav a:hover, nav a.active {
         width: 100%;
         flex: 1;
         margin-top: auto;
+        justify-content: flex-start;
     }
 
     .search-icon {
