@@ -250,7 +250,7 @@ nav a:hover, nav a.active {
     }
     
     .items-container {
-        gap: 0.1rem;  /* Reduced gap between cards */
+        gap: 0.3rem;  /* Reduced gap between cards */
         padding: 0.1rem;  /* Reduced padding around container */
     }
     
