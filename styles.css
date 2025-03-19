@@ -255,7 +255,7 @@ nav a:hover, nav a.active {
     }
     
     .content-wrapper {
-        padding: 0.5rem;  /* Reduced wrapper padding */
+        padding: 0.2rem;  /* Reduced wrapper padding */
     }
 
     .top-header h1 {
